@@ -61,6 +61,7 @@ public class AleatorioEmple {
 			file.writeChars(buffer.toString());
 			file.writeInt(dep[i]);
 			file.writeDouble(salario[i]);
+			System.out.println("dos realizado");
 		}
 		file.close();
 	}// fin crear
